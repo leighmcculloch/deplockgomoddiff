@@ -83,7 +83,7 @@ func run(depGopkgLockPath, goListModAllPath, githubAuthUsername, githubAuthPassw
 			tags, err := getTagsAndRevisions(ip, githubAuthUsername, githubAuthPassword)
 			if err != nil {
 				fmt.Fprintln(os.Stderr, "Error retrieving alternative tags:", err)
-			} else if tags[dep] == tags[mod] || tags[dep] == mod || tags[mod] == dep {
+			} else if len(tags) > 0 && (tags[dep] == tags[mod] || tags[dep] == mod || tags[mod] == dep) {
 				continue
 			}
 			fmt.Println("! ", ip, dep, "=>", mod)

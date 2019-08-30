@@ -34,3 +34,10 @@ Added:
 Changed:
 !  github.com/onsi/ginkgo c73579c58881 => v1.7.0
 !  github.com/onsi/gomega 649b44d988ce => v1.4.3
+!  github.com/rcrowley/go-metrics a5cfc242a56b => cac0b30c2563
+!  golang.org/x/crypto 7f87c0fbb88b => cc06ce4a13d4
+!  golang.org/x/net 9bc2a3340c92 => 60506f45cf65
+!  golang.org/x/sys cc5685c2db12 => 5da285871e9c
+!  golang.org/x/text 1cbadb444a80 => v0.3.2
+!  gopkg.in/fatih/set.v0 57907de30022 => v0.1.0
+!  gopkg.in/yaml.v2 7ad95dd0798a => v2.2.2
